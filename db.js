@@ -106,7 +106,7 @@ let categories = [
   },
 ];
 
-exports.db = {
+module.exports = {
   products,
   categories,
 };

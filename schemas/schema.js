@@ -2,6 +2,7 @@ const { gql } = require("apollo-server");
 
 exports.typeDefs = gql`
   type Query {
+    hello: String
     products: [Product!]!
     """
     returns a single product page
