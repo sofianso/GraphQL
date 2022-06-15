@@ -1,18 +1,27 @@
 {
-  "name": "hello-world-server",
-  "private": true,
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon --ignore data/ server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofianso/GraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofianso/GraphQL/issues"
+  },
+  "homepage": "https://github.com/sofianso/GraphQL#readme",
   "dependencies": {
-    "apollo-server-express": "^1.4.0",
-    "body-parser": "^1.19.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.3",
-    "graphql": "^0.13.2",
-    "graphql-tools": "^3.1.1"
+    "apollo-server": "^3.6.6",
+    "graphql": "^16.3.0"
   },
   "devDependencies": {
-    "nodemon": "1.17.1"
+    "nodemon": "^2.0.16"
   }
 }
